@@ -1,0 +1,39 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.cll{
+    background: linear-gradient(45deg,blueviolet,deeppink);
+}
+.bg-my,.btn-my{
+    background: linear-gradient(45deg,blueviolet,deeppink);
+    color: linear-gradient(45deg,blueviolet,deeppink) !important;
+}
+.text-mycolor{
+    color:deeppink;
+}
+.bg-my1,.btn-my1{
+    background: linear-gradient(65deg,rgb(232, 236, 236),rgb(172, 7, 95));
+}
+.bg-light-pink{
+    background:linear-gradient(45deg,rgb(165, 187, 248),rgb(250, 164, 210));
+}
+
+.carousel .carousel-indicators li {
+    width: 30px;
+    height: 5px;
+    cursor: pointer;
+    border-radius: 0%
+}
+.carousel-caption{
+    bottom: 220px;
+}
+@media(max-width:576px) {
+    .carousel-caption{bottom: 20px;}
+    .carousel-caption p{
+        display: none;
+    }
+    .carousel-caption h5{
+        font-size: 30px ;
+    }
+}
